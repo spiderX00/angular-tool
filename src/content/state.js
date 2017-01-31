@@ -2,11 +2,11 @@ $(function() {
 
     "use strict";
 
-    const endpoint = "https://letsdonation.com/?index.php&option=com_jsocialcommerce&task=";
+    const endpoint = "/?index.php&option=com_jsocialcommerce&task=";
 
     const LOGIN_URLS = [
-        new RegExp("https://letsdonation.com/login"),
-        new RegExp("https://letsdonation.com/index.php?option=com_users&view=login")
+        new RegExp("/login"),
+        new RegExp("/index.php?option=com_users&view=login")
     ];
 
     const DEFAULT_PARAMS = {
@@ -22,7 +22,7 @@ $(function() {
 
     function checkUserLogin() {
         let today = new Date().toISOString().slice(0, 10);
-        let ck = descrypt("checkUserLogin" + today, "letsdonationapi");
+        let ck = descrypt("checkUserLogin" + today, "api");
         let task = "api.checkUserLogin";
         let url = endpoint + task + "&ck=" + ck;
         $.get(url, (data) => {
@@ -44,7 +44,7 @@ $(function() {
 
     function checkUserAuth(args) {
         let today = new Date().toISOString().slice(0, 10);
-        let ck = descrypt("checkUserAuth" + today, "letsdonationapi");
+        let ck = descrypt("checkUserAuth" + today, "toolapi");
         let task = "api.checkUserAuth";
         let url = endpoint + task + "&usermail=" + args.usermail + "&pass=" + args.pass + "&ck=" + ck;
         $.get(url, (data) => {

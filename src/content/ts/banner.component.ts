@@ -12,7 +12,7 @@ import template from "./templates/auth.banner";
 export class BannerComponent {
 
     private Auth: boolean = true;
-    private LoginLetsDonationUrl: string = "/login";
+    private LogintoolUrl: string = "/login";
 
     constructor() { }
 

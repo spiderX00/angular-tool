@@ -9,7 +9,7 @@ const request = require("sdk/request").Request;
 const page = require("sdk/page-worker").Page;
 const data = self.data;
 
-const LOGIN_URLS = "*.letsdonation.com";
+const LOGIN_URLS = "*.*";
 //const INVERSE_REGEXP = new RegExp(/^(?!.*?(lafeltrinelli.it|booking.com|groupon.it|it.venere.com|opodo.it|zooplus.it|1and1.it|ariete.net|shop.foppapedretti.it|facebook.com|kiabi.it|vidaxl.it|about:)).*$/);
 const INVERSE_REGEXP = new RegExp();
 const DEFAULT_USER_ID = 1;
@@ -98,8 +98,8 @@ tabs.on("ready", function(tab) {
 });
 
 let button = buttons.ActionButton({
-    id: "letsDonation-activebutton",
-    label: "letsDonation",
+    id: "tool-activebutton",
+    label: "tool",
     icon: {
         "16": "./src/content/img/icon-32.png"
     },

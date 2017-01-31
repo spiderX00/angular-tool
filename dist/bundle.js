@@ -35075,7 +35075,7 @@
 	var BannerComponent = (function () {
 	    function BannerComponent() {
 	        this.Auth = true;
-	        this.LoginLetsDonationUrl = "https://letsdonation.com/login";
+	        this.LogintoolUrl = "/login";
 	    }
 	    BannerComponent.prototype.returnMessage = function () {
 	    };
@@ -35100,7 +35100,7 @@
 /***/ function(module, exports) {
 
 	"use strict";
-	var template = ["\n  <header [banner] id=\"banner-letdonationId\" class=\"banner-letdonation auth size-font\" role=\"navigation\" style=\"position:fixed;\">\n      <div id=\"container-letsdonationId\">\n          <button class=\"close-letdonation\" (click)=\"returnMessage()\">\n              <i class=\"fa fa-times fa-1\"></i>\n          </button>\n          <div class=\"navbar-banner-header\">\n              <div class=\"navbar-brand\">\n                  <img src=\"/src/content/ts/templates/img/defaultAvatar.png\" id=\"avatar-letsdonation\" style=\"position:absolute; top:5px; left:0px;\">\n              </div>\n              <div id=\"banner-letsdonation-content\" style=\"text-align:center;\">\n                  Grazie per avermi installato! Posso indicarti in tempo reale quando poter effettuare le donazioni\n                  <div *ngIf=\"Auth\" id=\"login-letsdonation\" style=\"margin-left:5%;\">\n                      <a target=\"_blank\" style=\"color:black; background: none; text-decoration: underline;\" [href]=\"LoginLetsDonationUrl\">Login\n                          <i class=\"fa fa-user\"></i>\n                      </a>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </header>\n"].join('');
+	var template = ["\n  <header [banner] id=\"banner-letdonationId\" class=\"banner-letdonation auth size-font\" role=\"navigation\" style=\"position:fixed;\">\n      <div id=\"container-toolId\">\n          <button class=\"close-letdonation\" (click)=\"returnMessage()\">\n              <i class=\"fa fa-times fa-1\"></i>\n          </button>\n          <div class=\"navbar-banner-header\">\n              <div class=\"navbar-brand\">\n                  <img src=\"/src/content/ts/templates/img/defaultAvatar.png\" id=\"avatar-tool\" style=\"position:absolute; top:5px; left:0px;\">\n              </div>\n              <div id=\"banner-tool-content\" style=\"text-align:center;\">\n                  Grazie per avermi installato! Posso indicarti in tempo reale quando poter effettuare le donazioni\n                  <div *ngIf=\"Auth\" id=\"login-tool\" style=\"margin-left:5%;\">\n                      <a target=\"_blank\" style=\"color:black; background: none; text-decoration: underline;\" [href]=\"LogintoolUrl\">Login\n                          <i class=\"fa fa-user\"></i>\n                      </a>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </header>\n"].join('');
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.default = template;
 
@@ -35143,7 +35143,7 @@
 	    ], BannerDirective.prototype, "setValue", null);
 	    BannerDirective = __decorate([
 	        core_1.Directive({
-	            selector: "[banner]",
+	            selector: "[banner]"
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof core_1.ElementRef !== 'undefined' && core_1.ElementRef) === 'function' && _a) || Object, (typeof (_b = typeof core_1.Renderer !== 'undefined' && core_1.Renderer) === 'function' && _b) || Object])
 	    ], BannerDirective);

@@ -2,21 +2,21 @@ input[type=checkbox], input[type=radio] {
     margin: 15px;
 }
 
-#letsdonation__progress {
+#tool__progress {
   position: relative;
   width: 100%;
   height: 30px;
   background-color: #ddd;
 }
 
-#letsdonation__bar {
+#tool__bar {
   position: absolute;
   width: 1%;
   height: 100%;
   background-color: #4CAF50;
 }
 
-#banner-letsdonation-content {
+#banner-tool-content {
     font-family: sans-serif;
     position: absolute;
     top: 10px;
@@ -27,7 +27,7 @@ input[type=checkbox], input[type=radio] {
     justify-content: space-around;
 }
 
-#container-letsdonationId {
+#container-toolId {
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ input[type=checkbox], input[type=radio] {
   background: transparent !important;
 }
 
-.modal-letsdonation {
+.modal-tool {
     background-color: transparent !important;
 }
 
@@ -60,7 +60,7 @@ input[type=checkbox], input[type=radio] {
     font-family: sans-serif !important;
 }
 
-.letsdonation-search-icon {
+.tool-search-icon {
     width: 32px;
     border: none;
     cursor: pointer;
@@ -94,7 +94,7 @@ input[type=checkbox], input[type=radio] {
     color: black;
 }
 
-.form-letsdonation-control {
+.form-tool-control {
     /*width: 200px;
   padding: 6px 12px !important;*/
     font-size: 14px !important;
@@ -114,11 +114,11 @@ input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
 }
 
-.form-letsdonation-control option {
+.form-tool-control option {
     font-size: 15px;
 }
 
-.btn-letsdonation {
+.btn-tool {
     box-sizing: border-box;
     height: 40px;
     display: inline-block;
@@ -160,13 +160,13 @@ input[type=checkbox], input[type=radio] {
     text-align: -webkit-center;
 }
 
-.letsdonation-banner-margin {}
+.tool-banner-margin {}
 
-.letsdonation-navbar {
+.tool-navbar {
     text-align: center;
 }
 
-.letsdonation-navbar>li {
+.tool-navbar>li {
     float: none;
     display: inline-block;
     margin: 7px;
@@ -287,7 +287,7 @@ a:visited {
     font-size: inherit;
 }
 
-.checkbox-letsdonation {
+.checkbox-tool {
     float: right;
     /*filter: alpha(opacity=20);*/
     padding: 0;
@@ -330,13 +330,13 @@ a:visited {
     border: 0;
 }
 
-#avatar-letsdonation {
+#avatar-tool {
     width: 40px;
     margin: 0;
     height: 45px;
 }
 
-#content-letsdonation {}
+#content-tool {}
 
 .banner-letdonation {
     width: 100%;
@@ -356,7 +356,7 @@ a:visited {
     height: 70px;
 }
 
-.modal-letsdonation-content {
+.modal-tool-content {
     margin-top: 60px;
 }
 
@@ -364,21 +364,21 @@ h4 {
     margin-top: 30%;
 }
 
-.description-letsDonation {
+.description-tool {
     font-size: small;
     width: 40%;
 }
 
-#banner-letdonationId .collapse, .letsDonation-collapse {}
+#banner-letdonationId .collapse, .tool-collapse {}
 
-.navbar-collapse, .letsdonation-navbar-collapse {}
+.navbar-collapse, .tool-navbar-collapse {}
 
 #openProjects {
     text-align: center;
 }
 
 @media only screen and (min-width: 982px) {
-    #content-letsdonation {
+    #content-tool {
         /*margin-left: -35%;*/
     }
     .size-font {
@@ -400,20 +400,20 @@ h4 {
         border: 0;
         margin: 0;
     }
-    .btn-danger-letsdonation {
+    .btn-danger-tool {
         font-size: 14px;
     }
 }
 
 @media only screen and (max-width: 1100px) {
-    #avatar-letsdonation {
+    #avatar-tool {
         /*height: 0;*/
     }
-    .description-letsDonation {
+    .description-tool {
         font-size: small;
         width: 40%;
     }
-    .modal-letsdonation-content {
+    .modal-tool-content {
         margin-top: 25%;
     }
 }
@@ -438,19 +438,19 @@ h4 {
 }
 
 @media only screen and (max-width: 767px) {
-    .letsDonation-collapse ul {
+    .tool-collapse ul {
         display: block;
     }
-    #avatar-letsdonation {
+    #avatar-tool {
         text-align: center;
     }
-    #banner-letsdonation-content {
+    #banner-tool-content {
         position: static !important;
         font-family: sans-serif;
         word-wrap: break-word;
         display: block;
     }
-    #container-letsdonationId {
+    #container-toolId {
         font-size: smaller !important;
     }
     .modal.fade {
@@ -461,7 +461,7 @@ h4 {
         margin-top: 10%;
         height: 3000px;
     }
-    .modal-letsdonation-dialog {
+    .modal-tool-dialog {
         width: auto;
         max-width: 100%;
         margin: 0 auto !important;
@@ -478,18 +478,18 @@ h4 {
         float: none;
         margin: 10px;
     }
-    .btn-letsdonation-menu {
+    .btn-tool-menu {
         text-align: center;
         padding: 15px;
     }
-    #filter-letsdonation {
+    #filter-tool {
         visibility: hidden;
     }
-    #login-letsdonation {}
-    .modal-letsdonation-content {
+    #login-tool {}
+    .modal-tool-content {
         margin-top: 170px;
     }
-    .description-letsDonation {
+    .description-tool {
         text-align: center;
         margin: 0 auto;
         width: 100%;
@@ -548,7 +548,7 @@ h4 {
         color: black;
         height: auto;
     }
-    .btn-danger-letsdonation {
+    .btn-danger-tool {
         height: 40px;
     }
     #banner-letdonationId {
@@ -559,17 +559,17 @@ h4 {
         box-sizing: border-box !important;
         height: auto;
     }
-    #avatar-letsdonation {
+    #avatar-tool {
         margin: 0;
         /*
         height: 0 !important;
         width: : 0 !important;
         */
     }
-    #login-letsdonation {
+    #login-tool {
         padding: 0;
     }
-    .letsdonation-banner-margin {
+    .tool-banner-margin {
         margin-left: 40%;
     }
 }

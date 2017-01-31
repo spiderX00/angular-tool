@@ -1,5 +1,5 @@
 module.exports = {
-  server_name: 'letsDonation',
+  server_name: 'tool',
   port: 3000,
   clientDir: '/'
 }
