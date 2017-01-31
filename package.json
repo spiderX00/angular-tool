@@ -1,0 +1,42 @@
+{
+  "name": "angular-tool",
+  "version": "2.0.0",
+  "description": "angular-tool",
+  "author": "Remo Di Felice",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "@ngrx/store": "^2.2.1",
+    "core-js": "*",
+    "jquery": "^3.1.1",
+    "log4js": "^1.0.1",
+    "ng2-bootstrap": "^1.1.16",
+    "reflect-metadata": "*",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@angularclass/hmr": "^1.0.1",
+    "@angularclass/hmr-loader": "^3.0.2",
+    "@types/core-js": "^0.9.0",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "*",
+    "body-parser": "^1.15.2",
+    "css-loader": "^0.25.0",
+    "express": "^4.14.0",
+    "html-loader": "^0.4.4",
+    "preprocessor-loader": "*",
+    "reflect-metadata": "^0.1.8",
+    "shim": "^0.6.0",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*"
+  }
+}
